@@ -6,12 +6,12 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #ffffff; /* Fundo branco para melhor contraste */
-  color: #333333; /* Texto escuro para boa legibilidade */
+  background-color: #b65c80;
+  color: #333;
 }
 
 header {
-  background-color: #4CAF50; /* Verde vibrante */
+  background-color: #a02c6e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,12 +30,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #ffffff; /* Texto branco */
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #FFD700; /* Amarelo dourado ao passar o mouse */
+  color: #800080;
 }
 
 .banner {
@@ -55,8 +50,8 @@ nav a:hover {
 }
 
 .btn {
-  background-color: #FFD700; /* Amarelo dourado */
-  color: black;
+  background-color: #800080;
+  color: white;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -95,8 +90,6 @@ form {
 form input, form textarea {
   margin: 10px 0;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
 footer {
